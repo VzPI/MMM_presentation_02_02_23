@@ -1,0 +1,41 @@
+
+/*-- scss:defaults --*/
+
+$link-color: #a13f3c;
+$code-color: #737373;
+
+
+/*-- scss:rules --*/
+
+.reveal code {
+  color: $code-color;
+  background-color: #EEEEEE;
+  white-space: normal;
+}
+
+.reveal .slide-number {
+  color: $link-color;
+}
+
+.reveal .a {
+  color:#a13f3c;
+}
+
+.reveal .a:link {
+  color:$link-color;
+}
+
+.reveal .a:visited {
+  color:$link-color;
+}
+
+.reveal .a:hover {
+  color:#cc3333;
+}
+
+.reveal .a:active {
+  color:#cc3333;
+}
+
+
+
